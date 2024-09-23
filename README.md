@@ -22,7 +22,7 @@
 ## About The Project
 The objective of this project is to automate key functionalities of a product store web application using Selenium WebDriver integrated with TestNG for test management. The project covers automating user signup, login, adding products to the cart, and placing an order. TestNG is used for organizing and running test cases efficiently, generating detailed reports, and handling assertions for validating each functionality.
 
-![Web automation using Selenium](https://user-images.githubusercontent.com/16562819/108623847-4a304e80-7469-11eb-965e-13b8efdce54e.png)
+![Automation Demonstration](./demo.gif)
 
 
 ### Built With
@@ -68,10 +68,6 @@ _Note: I have used WAR for packaging. If you want to build into the jar file, ch
 Now you can use any application server to deploy the archived java file. For this project I am using [Wildfly v22.0.1](https://www.wildfly.org/) 
 
 Congrats !!! You are now able to run the project in your own development environment.
-
-## Usage
-
-![Automation Demonstration](./demo.gif)
 
 ### For Manual Check in
 ```http
