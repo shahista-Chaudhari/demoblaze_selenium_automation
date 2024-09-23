@@ -71,7 +71,7 @@ Congrats !!! You are now able to run the project in your own development environ
 
 ## Usage
 
-![Automation Demonstration](./demo.png)
+![Automation Demonstration](./demo.gif)
 
 ### For Manual Check in
 ```http
