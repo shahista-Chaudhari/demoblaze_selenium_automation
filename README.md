@@ -67,10 +67,11 @@ _Note: I have used WAR for packaging. If you want to build into the jar file, ch
 
 Now you can use any application server to deploy the archived java file. For this project I am using [Wildfly v22.0.1](https://www.wildfly.org/) 
 
-Congrats !!! You are now able to run the project in your own development environment. 
+Congrats !!! You are now able to run the project in your own development environment.
 
 ## Usage
-Server automatically schedules intranet check in and check out time for the next day in every restart. There is also APIs exposed for manual check in and check out.
+
+![Automation Demonstration](./demo.png)
 
 ### For Manual Check in
 ```http
