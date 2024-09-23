@@ -8,18 +8,11 @@
   <parameter name="year" value="25"/>
   <parameter name="browser" value="chrome"/>
   <parameter name="name" value="John Pax"/>
-  <parameter name="user" value="johnpax032"/>
+  <parameter name="user" value="johnpax034"/>
   <parameter name="url" value="https://www.demoblaze.com/"/>
   <parameter name="card" value="JKW231O0"/>
   <test thread-count="5" name="ChromeTest(failed)">
     <classes>
-      <class name="com.demoblaze.testautomation.TestAddtoCart">
-        <methods>
-          <include name="setupDriver"/>
-          <include name="testPage" invocation-numbers="0"/>
-          <include name="closeDriver"/>
-        </methods>
-      </class> <!-- com.demoblaze.testautomation.TestAddtoCart -->
       <class name="com.demoblaze.testautomation.TestSignUpPage">
         <methods>
           <include name="testPage" invocation-numbers="0"/>
@@ -27,20 +20,6 @@
           <include name="closeDriver"/>
         </methods>
       </class> <!-- com.demoblaze.testautomation.TestSignUpPage -->
-      <class name="com.demoblaze.testautomation.TestLoginPage">
-        <methods>
-          <include name="setupDriver"/>
-          <include name="testPage" invocation-numbers="0"/>
-          <include name="closeDriver"/>
-        </methods>
-      </class> <!-- com.demoblaze.testautomation.TestLoginPage -->
-      <class name="com.demoblaze.testautomation.TestPlaceOrder">
-        <methods>
-          <include name="setupDriver"/>
-          <include name="testPage" invocation-numbers="0"/>
-          <include name="closeDriver"/>
-        </methods>
-      </class> <!-- com.demoblaze.testautomation.TestPlaceOrder -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [softwaretesting] -->

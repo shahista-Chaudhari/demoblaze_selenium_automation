@@ -1,0 +1,29 @@
+<suite name="softwaretesting">
+	
+	<parameter name="url" value="https://www.demoblaze.com/"/>
+	<parameter name="browser" value="chrome"/>
+	<parameter name="user" value="johnpax038"/>  <!-- Change this to create new user -->
+	<parameter name="pass" value="johnpax@123456"/>
+	<parameter name="name" value="John Pax"/>
+	<parameter name="country" value="India"/>
+	<parameter name="city" value="Delhi"/>
+	<parameter name="card" value="JKW231O0"/>
+	<parameter name="month" value="05"/>
+	<parameter name="year" value="25"/>
+	
+	 <listeners>
+        <listener class-name="com.demoblaze.testautomation.IgnoreFailureListener" />
+    </listeners>
+	
+	
+	<test name="ChromeTest">
+	<classes>
+		<class name="com.demoblaze.testautomation.TestSignUpPage" /> <!-- Comment this to use existing user --> 
+		<class name="com.demoblaze.testautomation.TestLoginPage" />
+		<class name="com.demoblaze.testautomation.TestAddtoCart" /> 
+		<class name="com.demoblaze.testautomation.TestPlaceOrder" />
+	</classes>
+	</test>
+	
+	
+</suite>

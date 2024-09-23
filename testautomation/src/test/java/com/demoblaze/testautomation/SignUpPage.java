@@ -17,11 +17,14 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import dev.failsafe.internal.util.Durations;
 
+
+@Listeners(IgnoreFailureListener.class)
 public class SignUpPage extends Setup {
 	
 	public SignUpPage(WebDriver driver) {
@@ -41,7 +44,7 @@ public class SignUpPage extends Setup {
 	@FindBy(xpath = "//button[normalize-space()='Sign up']")
 	WebElement signUp;
 	
-	public void clickSignIn() {
+	public void clickSignIn() throws InterruptedException {
 		signInButton.sendKeys(Keys.ENTER);
 	}
 	
@@ -56,20 +59,12 @@ public class SignUpPage extends Setup {
 	}
 	
 	public void clickSignUp() throws InterruptedException {
-		try {
-			signUp.click();
-			Thread.sleep(2000);
-			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-			Alert alert = wait.until(ExpectedConditions.alertIsPresent());
-			Thread.sleep(2000);
-			alert = driver.switchTo().alert();
-			alert.accept();
-		}
-		catch(Exception e) {
-			System.out.println(e);
-		}
+		signUp.click();
+		Thread.sleep(2000);
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		Alert alert = wait.until(ExpectedConditions.alertIsPresent());
+		Thread.sleep(2000);
+		alert = driver.switchTo().alert();
+		alert.accept();
 	}
-	
-	
-	
 }

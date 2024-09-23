@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-23T18:50:04 IST" name="softwaretesting" finished-at="2024-09-23T18:50:59 IST" duration-ms="54908">
+    <groups>
+    </groups>
+    <test started-at="2024-09-23T18:50:04 IST" name="ChromeTest" finished-at="2024-09-23T18:50:59 IST" duration-ms="54908">
+      <class name="com.demoblaze.testautomation.TestAddtoCart">
+        <test-method signature="testPage(java.lang.String,java.lang.String)[pri:2, instance:com.demoblaze.testautomation.TestAddtoCart@56528192]" started-at="2024-09-23T18:50:19 IST" name="testPage" finished-at="2024-09-23T18:50:37 IST" duration-ms="17200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[johnpax038]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[johnpax@123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPage -->
+      </class> <!-- com.demoblaze.testautomation.TestAddtoCart -->
+      <class name="com.demoblaze.testautomation.TestPlaceOrder">
+        <test-method signature="testPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.demoblaze.testautomation.TestPlaceOrder@6e0dec4a]" started-at="2024-09-23T18:50:37 IST" name="testPage" finished-at="2024-09-23T18:50:59 IST" duration-ms="22623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John Pax]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[JKW231O0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[05]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPage -->
+      </class> <!-- com.demoblaze.testautomation.TestPlaceOrder -->
+      <class name="com.demoblaze.testautomation.TestSignUpPage">
+        <test-method is-config="true" signature="setupDriver(java.lang.String,java.lang.String)[pri:0, instance:com.demoblaze.testautomation.TestSignUpPage@75329a49]" started-at="2024-09-23T18:50:02 IST" name="setupDriver" finished-at="2024-09-23T18:50:04 IST" duration-ms="2448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="testPage(java.lang.String,java.lang.String)[pri:0, instance:com.demoblaze.testautomation.TestSignUpPage@75329a49]" started-at="2024-09-23T18:50:04 IST" name="testPage" finished-at="2024-09-23T18:50:15 IST" duration-ms="10646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[johnpax038]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[johnpax@123456]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method TestSignUpPage.testPage(java.lang.String,java.lang.String)[pri:0, instance:com.demoblaze.testautomation.TestSignUpPage@75329a49] should have thrown an exception of type class org.openqa.selenium.NoAlertPresentException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method TestSignUpPage.testPage(java.lang.String,java.lang.String)[pri:0, instance:com.demoblaze.testautomation.TestSignUpPage@75329a49] should have thrown an exception of type class org.openqa.selenium.NoAlertPresentException
+at org.testng.internal.invokers.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:81)
+at org.testng.internal.invokers.TestInvoker.considerExceptions(TestInvoker.java:863)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:718)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPage -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.demoblaze.testautomation.TestSignUpPage@75329a49]" started-at="2024-09-23T18:50:59 IST" name="closeDriver" finished-at="2024-09-23T18:51:02 IST" duration-ms="3140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.demoblaze.testautomation.TestSignUpPage -->
+      <class name="com.demoblaze.testautomation.TestLoginPage">
+        <test-method signature="testPage(java.lang.String,java.lang.String)[pri:1, instance:com.demoblaze.testautomation.TestLoginPage@49c386c8]" started-at="2024-09-23T18:50:15 IST" name="testPage" finished-at="2024-09-23T18:50:19 IST" duration-ms="4387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[johnpax038]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[johnpax@123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPage -->
+      </class> <!-- com.demoblaze.testautomation.TestLoginPage -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- softwaretesting -->
+</testng-results>

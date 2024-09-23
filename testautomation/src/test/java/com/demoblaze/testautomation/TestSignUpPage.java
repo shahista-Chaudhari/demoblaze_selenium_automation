@@ -17,6 +17,7 @@ public class TestSignUpPage extends Setup {
 	@Test(expectedExceptions = NoAlertPresentException.class, priority=0)
 	@Parameters({"user","pass"})
 	public void testPage(String user, String pass) throws InterruptedException{
+		Thread.sleep(3000);
 		SignUpPage signuppage = new SignUpPage(driver);
 		signuppage.clickSignIn();
 		signuppage.enterUsername(user);

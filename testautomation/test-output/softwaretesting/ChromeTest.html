@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>ChromeTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Sep 22 17:36:31 IST 2024</td>
+<td>Started on:</td><td>Mon Sep 23 17:12:51 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>42 seconds (42890 ms)</td>
+<tr><td>Total time:</td><td>10 seconds (10752 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,20 +76,41 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.demoblaze.testautomation.TestLoginPage.testPage()'><b>testPage</b><br>Test class: com.demoblaze.testautomation.TestLoginPage<br>Parameters: johnpax032, johnpax@123456</td>
-<td></td>
-<td>4</td>
-<td>com.demoblaze.testautomation.TestLoginPage@69e153c5</td></tr>
-<tr>
-<td title='com.demoblaze.testautomation.TestAddtoCart.testPage()'><b>testPage</b><br>Test class: com.demoblaze.testautomation.TestAddtoCart<br>Parameters: johnpax032, johnpax@123456</td>
-<td></td>
-<td>16</td>
-<td>com.demoblaze.testautomation.TestAddtoCart@5d0bf09b</td></tr>
-<tr>
-<td title='com.demoblaze.testautomation.TestPlaceOrder.testPage()'><b>testPage</b><br>Test class: com.demoblaze.testautomation.TestPlaceOrder<br>Parameters: John Pax, India, Delhi, JKW231O0, 05, 25</td>
-<td></td>
-<td>21</td>
-<td>com.demoblaze.testautomation.TestPlaceOrder@793f29ff</td></tr>
+<td title='com.demoblaze.testautomation.TestSignUpPage.testPage()'><b>testPage</b><br>Test class: com.demoblaze.testautomation.TestSignUpPage<br>Parameters: johnpax036, johnpax@123456</td>
+<td><div><pre>org.testng.TestException: 
+Method TestSignUpPage.testPage(java.lang.String,java.lang.String)[pri:0, instance:com.demoblaze.testautomation.TestSignUpPage@76b1e9b8] should have thrown an exception of type class org.openqa.selenium.NoAlertPresentException
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1526062841", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1526062841'><pre>org.testng.TestException: 
+Method TestSignUpPage.testPage(java.lang.String,java.lang.String)[pri:0, instance:com.demoblaze.testautomation.TestSignUpPage@76b1e9b8] should have thrown an exception of type class org.openqa.selenium.NoAlertPresentException
+	at org.testng.internal.invokers.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:81)
+	at org.testng.internal.invokers.TestInvoker.considerExceptions(TestInvoker.java:863)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:718)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>10</td>
+<td>com.demoblaze.testautomation.TestSignUpPage@76b1e9b8</td></tr>
 </table><p>
 </body>
 </html>

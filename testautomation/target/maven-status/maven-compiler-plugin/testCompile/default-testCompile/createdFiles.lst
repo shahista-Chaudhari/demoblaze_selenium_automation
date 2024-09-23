@@ -1,0 +1,11 @@
+com/demoblaze/testautomation/TestAddtoCart.class
+com/demoblaze/testautomation/TestPlaceOrder.class
+com/demoblaze/testautomation/ContactPage.class
+com/demoblaze/testautomation/LoginPage.class
+com/demoblaze/testautomation/SignUpPage.class
+com/demoblaze/testautomation/Setup.class
+com/demoblaze/testautomation/IgnoreFailureListener.class
+com/demoblaze/testautomation/PlaceOrder.class
+com/demoblaze/testautomation/TestLoginPage.class
+com/demoblaze/testautomation/TestSignUpPage.class
+com/demoblaze/testautomation/AddtoCart.class
