@@ -1,12 +1,10 @@
-# DemoBlaze Product Store
-
 <!-- PROJECT HEADER -->
 <p align="center">
   <!--PROJECT TITLE AND DESCRIPTION -->
  <h1 align="center">Automation of Product Store Web Application Using Selenium and TestNG</h1>
 
   <p align="center">
-    A web automation project to ease daily attendance in my Office Intranet System built using Selenium in Java.
+    A web automation project to automate testing process Online Store built using Selenium & TestNG in Java.
     <br /><br/>
     <a href="https://www.linkedin.com/in/lavatech-technology-81aa6a14b/">
         <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555"
