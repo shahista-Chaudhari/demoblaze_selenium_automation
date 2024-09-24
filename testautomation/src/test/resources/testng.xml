@@ -2,7 +2,7 @@
 	
 	<parameter name="url" value="https://www.demoblaze.com/"/>
 	<parameter name="browser" value="chrome"/>
-	<parameter name="user" value="johnpax038"/>  <!-- Change this to create new user -->
+	<parameter name="user" value="johnpax039"/>  <!-- Change this to create new user -->
 	<parameter name="pass" value="johnpax@123456"/>
 	<parameter name="name" value="John Pax"/>
 	<parameter name="country" value="India"/>

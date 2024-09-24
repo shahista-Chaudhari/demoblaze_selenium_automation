@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-23T18:50:04 IST" name="softwaretesting" finished-at="2024-09-23T18:50:59 IST" duration-ms="54908">
+  <suite started-at="2024-09-23T19:07:34 IST" name="softwaretesting" finished-at="2024-09-23T19:08:28 IST" duration-ms="53485">
     <groups>
     </groups>
-    <test started-at="2024-09-23T18:50:04 IST" name="ChromeTest" finished-at="2024-09-23T18:50:59 IST" duration-ms="54908">
+    <test started-at="2024-09-23T19:07:34 IST" name="ChromeTest" finished-at="2024-09-23T19:08:28 IST" duration-ms="53485">
       <class name="com.demoblaze.testautomation.TestAddtoCart">
-        <test-method signature="testPage(java.lang.String,java.lang.String)[pri:2, instance:com.demoblaze.testautomation.TestAddtoCart@56528192]" started-at="2024-09-23T18:50:19 IST" name="testPage" finished-at="2024-09-23T18:50:37 IST" duration-ms="17200" status="PASS">
+        <test-method signature="testPage(java.lang.String,java.lang.String)[pri:2, instance:com.demoblaze.testautomation.TestAddtoCart@56528192]" started-at="2024-09-23T19:07:49 IST" name="testPage" finished-at="2024-09-23T19:08:06 IST" duration-ms="16883" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[johnpax038]]>
+                <![CDATA[johnpax039]]>
               </value>
             </param>
             <param index="1">
@@ -25,7 +25,7 @@
         </test-method> <!-- testPage -->
       </class> <!-- com.demoblaze.testautomation.TestAddtoCart -->
       <class name="com.demoblaze.testautomation.TestPlaceOrder">
-        <test-method signature="testPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.demoblaze.testautomation.TestPlaceOrder@6e0dec4a]" started-at="2024-09-23T18:50:37 IST" name="testPage" finished-at="2024-09-23T18:50:59 IST" duration-ms="22623" status="PASS">
+        <test-method signature="testPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.demoblaze.testautomation.TestPlaceOrder@6e0dec4a]" started-at="2024-09-23T19:08:06 IST" name="testPage" finished-at="2024-09-23T19:08:28 IST" duration-ms="21877" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,7 +63,7 @@
         </test-method> <!-- testPage -->
       </class> <!-- com.demoblaze.testautomation.TestPlaceOrder -->
       <class name="com.demoblaze.testautomation.TestSignUpPage">
-        <test-method is-config="true" signature="setupDriver(java.lang.String,java.lang.String)[pri:0, instance:com.demoblaze.testautomation.TestSignUpPage@75329a49]" started-at="2024-09-23T18:50:02 IST" name="setupDriver" finished-at="2024-09-23T18:50:04 IST" duration-ms="2448" status="PASS">
+        <test-method is-config="true" signature="setupDriver(java.lang.String,java.lang.String)[pri:0, instance:com.demoblaze.testautomation.TestSignUpPage@75329a49]" started-at="2024-09-23T19:07:32 IST" name="setupDriver" finished-at="2024-09-23T19:07:34 IST" duration-ms="2305" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,11 +79,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method signature="testPage(java.lang.String,java.lang.String)[pri:0, instance:com.demoblaze.testautomation.TestSignUpPage@75329a49]" started-at="2024-09-23T18:50:04 IST" name="testPage" finished-at="2024-09-23T18:50:15 IST" duration-ms="10646" status="PASS">
+        <test-method signature="testPage(java.lang.String,java.lang.String)[pri:0, instance:com.demoblaze.testautomation.TestSignUpPage@75329a49]" started-at="2024-09-23T19:07:34 IST" name="testPage" finished-at="2024-09-23T19:07:45 IST" duration-ms="10493" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[johnpax038]]>
+                <![CDATA[johnpax039]]>
               </value>
             </param>
             <param index="1">
@@ -135,17 +135,17 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPage -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.demoblaze.testautomation.TestSignUpPage@75329a49]" started-at="2024-09-23T18:50:59 IST" name="closeDriver" finished-at="2024-09-23T18:51:02 IST" duration-ms="3140" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.demoblaze.testautomation.TestSignUpPage@75329a49]" started-at="2024-09-23T19:08:28 IST" name="closeDriver" finished-at="2024-09-23T19:08:31 IST" duration-ms="3130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
       </class> <!-- com.demoblaze.testautomation.TestSignUpPage -->
       <class name="com.demoblaze.testautomation.TestLoginPage">
-        <test-method signature="testPage(java.lang.String,java.lang.String)[pri:1, instance:com.demoblaze.testautomation.TestLoginPage@49c386c8]" started-at="2024-09-23T18:50:15 IST" name="testPage" finished-at="2024-09-23T18:50:19 IST" duration-ms="4387" status="PASS">
+        <test-method signature="testPage(java.lang.String,java.lang.String)[pri:1, instance:com.demoblaze.testautomation.TestLoginPage@49c386c8]" started-at="2024-09-23T19:07:45 IST" name="testPage" finished-at="2024-09-23T19:07:49 IST" duration-ms="4208" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[johnpax038]]>
+                <![CDATA[johnpax039]]>
               </value>
             </param>
             <param index="1">
