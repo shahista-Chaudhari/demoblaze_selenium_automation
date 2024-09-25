@@ -48,15 +48,15 @@ Steps are listed below to get this project up and running in your development en
 git clone https://github.com/lavatech321/demoblaze_selenium_automation.git
 ```
 
-* Open _testautomation_ folder in Eclipse.
+* Open _testautomation_ folder in Eclipse by selecting "File -> Import -> Maven -> Existing Maven Project" and select _testautomation_ folder. 
   
-* Finally run maven build command:
+* Optionally, run maven build command if you don't see "Maven Dependencies" folder:
 
 ```
 mvn clean install
 ```
 
-* You can also right click the project, and select "Maven -> Update Project -> Check the 'Force Update of Snapshots/Releases' -> Ok". This will update the "Maven Dependencies" project.
+You can also right click the project, and select "Maven -> Update Project -> Check the 'Force Update of Snapshots/Releases' -> Ok". This will update the "Maven Dependencies" project.
 
 * After making any changes to the repository, you can package the code into a jar file:
   
