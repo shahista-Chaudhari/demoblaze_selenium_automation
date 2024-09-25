@@ -12,7 +12,6 @@
     <a href="">
         <img src="https://img.shields.io/twitter/follow/_?style=for-the-badge&logo=twitter"
             alt="follow on LinkedIn"></a>
-
   </p>
 </p>
 <hr>
@@ -49,6 +48,8 @@ Steps are listed below to get this project up and running in your development en
 git clone https://github.com/lavatech321/demoblaze_selenium_automation.git
 ```
 
+* Open _testautomation_ folder in Eclipse.
+  
 * Finally run maven build command:
 
 ```
