@@ -77,10 +77,8 @@ Congrats !!! You are now able to run the project in your own development environ
 * **Lavatech Technology** - *Initial work* - [Yogita Soni](https://github.com/lavatech321)
 
 ## Contact
-[![LinkedIn][linkedin-shield]][linkedin-url] [![Twitter][twitter-shield]][twitter-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/lavatech-technology-81aa6a14b/
