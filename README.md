@@ -19,7 +19,7 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-The objective of this project is to automate key functionalities of a product store web application using Selenium WebDriver integrated with TestNG for test management. The project covers automating user signup, login, adding products to the cart, and placing an order. TestNG is used for organizing and running test cases efficiently, generating detailed reports, and handling assertions for validating each functionality.
+The objective of this project is to automate key functionalities of [DemoBlaze](https://www.demoblaze.com/index.html) product store web application using Selenium WebDriver integrated with TestNG for test management. The project covers automating user signup, login, adding products to the cart, and placing an order. TestNG is used for organizing and running test cases efficiently, generating detailed reports, and handling assertions for validating each functionality.
 
 ![Automation Demonstration](./demo.gif)
 
