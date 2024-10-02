@@ -1,7 +1,7 @@
 <!-- PROJECT HEADER -->
 <p align="center">
   <!--PROJECT TITLE AND DESCRIPTION -->
- <h1 align="center">Automation of Product Store Web Application Using Selenium and TestNG</h1>
+ <h1 align="center">Automation of DemoBlaze Product Store Web Application Using Selenium and TestNG</h1>
 
   <p align="center">
     A web automation project to automate testing process Online Store built using Selenium & TestNG in Java.
@@ -50,7 +50,7 @@ git clone https://github.com/lavatech321/demoblaze_selenium_automation.git
 
 * Open _testautomation_ folder in Eclipse by selecting "File -> Import -> Maven -> Existing Maven Project" and select _testautomation_ folder. 
   
-* Optionally, run maven build command if you don't see "Maven Dependencies" folder:
+Optionally, run maven build command if you don't see "Maven Dependencies" folder:
 
 ```
 mvn clean install
@@ -58,7 +58,13 @@ mvn clean install
 
 You can also right click the project, and select "Maven -> Update Project -> Check the 'Force Update of Snapshots/Releases' -> Ok". This will update the "Maven Dependencies" project.
 
-* After making any changes to the repository, you can package the code into a jar file:
+* Execute the project using below maven command:
+
+```
+mvn clean test
+```
+
+* Optionally, after making any changes to the repository, you can package the code into a jar file:
   
 ```
 mvn clean package
